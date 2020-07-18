@@ -26,6 +26,8 @@ namespace PublikFurni
 
     public partial class Form1 : ExtensionForm
     {
+        public override bool IsRemoteModule => true;
+
         private ushort ObjectsMessageEvent;
         private ushort RoomDataMessageEvent;
 
